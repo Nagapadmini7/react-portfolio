@@ -7,7 +7,7 @@ import Eve from '../assets/eve.jpeg'
 import Ncc from '../assets/ncc.png'
 
 const Services = () => {
-  return  <div className='container mx-auto'>
+  return  <section id="services"><div className='container mx-auto'>
     <div className='flex flex-col gap-y-10 lg:flex-row'>
     <div className='flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0'>
      <h2 className='h2 leading-tight text-accent'>Experience</h2> 
@@ -86,6 +86,7 @@ const Services = () => {
      
 
     </div>
+    </section>
  
 };
 
