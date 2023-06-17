@@ -1,6 +1,6 @@
 import React from 'react';
-import Image from '../assets/avatar.svg';
-import {FaGithub,FaYoutube,FaTwitter,FaInstagram} from 'react-icons/fa';
+import Image from '../assets/avatar.png';
+import {FaGithub,FaYoutube,FaTwitter,FaInstagram,FaLinkedin} from 'react-icons/fa';
 import {TypeAnimation} from 'react-type-animation'
 import {motion} from 'framer-motion';
 import {fadeIn} from  '../variants';
@@ -38,25 +38,28 @@ const Banner = () => {
             <motion.div variants={fadeIn('up',0.7)} initial="hidden" whileInView={'show'} 
           viewport={{once:false, amount:0.7}} className='flex text-[20px] gap-x-6 max-w-max mx-auto
             lg:mx-0'>
-              <a href="#">
+              <a href="https://github.com/Nagapadmini7">
                 <FaGithub/>
               </a>
-              <a href="#">
+              <a href="https://www.instagram.com/padmini_710/">
                 <FaInstagram/>
               </a>
               <a href="#">
                 <FaTwitter/>
               </a>
-              <a href="#">
+              <a href="https://www.youtube.com/channel/UCozywHHA1ye59_hl2P94dJQ">
                 <FaYoutube/>
+              </a>
+              <a href="https://www.linkedin.com/in/nagapadmini/">
+                <FaLinkedin/>
               </a>
               
             </motion.div>
         </div>
 
-        <div variants={fadeIn('down',0.5)} initial="hidden" whileInView={'show'} 
+        <motion.div variants={fadeIn('down',0.5)} initial="hidden" whileInView={'show'} 
          className='hidden lg:flex 
-        flex-1 max-w-[320px] lg:max-w-[482px]'><img src={Image} alt=''/></div>
+        flex-1 max-w-[320px] lg:max-w-[320px] lg:max-w-[482px]'><img src={Image} alt=''/></motion.div>
       </div>
     </div>
   </section>;
