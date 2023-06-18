@@ -30,7 +30,7 @@ const Banner = () => {
             <motion.div variants={fadeIn('up',0.6)} initial="hidden" whileInView={'show'} 
           viewport={{once:false, amount:0.7}} className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0 '>
               <button className='btn btn-lg'>Contact me</button>
-              <a href='#' className='text-gradient btn-link'>My portfolio</a>
+              
             </motion.div>
             <motion.div variants={fadeIn('up',0.7)} initial="hidden" whileInView={'show'} 
           viewport={{once:false, amount:0.7}} className='flex text-[20px] gap-x-6 max-w-max mx-auto
@@ -41,7 +41,7 @@ const Banner = () => {
               <a href="https://www.instagram.com/padmini_710/">
                 <FaInstagram/>
               </a>
-              <a href="#">
+              <a href="https://twitter.com/euphori15859932?t=p6X1uCjMakwBWg3_gO3gYg&s=08">
                 <FaTwitter/>
               </a>
               <a href="https://www.youtube.com/channel/UCozywHHA1ye59_hl2P94dJQ">

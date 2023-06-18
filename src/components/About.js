@@ -7,9 +7,7 @@ import {fadeIn} from '../variants'
 
 
 const About = () => {
-  const[ref, InView]= useInView({
-    threshold:0.5,
-  })
+  
   return <section className='section'
    id='about' ref={ref}>
     <div className='container mx-auto'>
