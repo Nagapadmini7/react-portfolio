@@ -4,7 +4,7 @@ import Ssoc from '../assets/ssoc.jpeg'
 import Gssoc from '../assets/gssoc.jpeg'
 import Pr from '../assets/pr.jpeg'
 import Eve from '../assets/eve.jpeg'
-import Ncc from '../assets/ncc.png'
+
 
 const Services = () => {
   return  <section id="services"><div className='container mx-auto'>
