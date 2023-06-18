@@ -1,8 +1,8 @@
 import React from 'react';
 import Spec from '../assets/spec.png'
-import Ssoc from '../assets/ssoc.jpeg'
-import Gssoc from '../assets/gssoc.jpeg'
-import Pr from '../assets/pr.jpeg'
+import Ssoc from '../assets/ssoc.png'
+import Gssoc from '../assets/gssoc.png'
+import Pr from '../assets/pr.png'
 import Eve from '../assets/eve.jpeg'
 
 
