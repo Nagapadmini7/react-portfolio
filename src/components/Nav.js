@@ -1,5 +1,5 @@
 import React from 'react';
-import {BiHomeAlt, BiUser} from 'react-icons/bi';
+import {BiHomeAlt, BiUser,BiCertification} from 'react-icons/bi';
 import {BsClipboardData, BsBriefcase, BsChatSquare, BsChatSquareText} from 'react-icons/bs';
 import {Link} from 'react-scroll';
 const Nav = () => {
@@ -21,6 +21,12 @@ const Nav = () => {
       smooth={true}
       spy={true} className='cursor-pointer w-[60px] h-[60px] flex-items-center' >
       <BiUser/>
+      </Link>
+      <Link to='about'
+      activeClass='skills'
+      smooth={true}
+      spy={true} className='cursor-pointer w-[60px] h-[60px] flex-items-center' >
+      <BiCertification/>
       </Link>
       <Link to='services'
       activeClass='active'

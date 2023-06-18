@@ -12,9 +12,7 @@ const Work = () => {
       <div className='flex flex-col lg:flex-row gap-x-10'>
         <div className='flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0'>
           <div ><h2 className='h2 leading-tight text-accent'>My Latest <br/>Work</h2>
-          <p className='max-w-sm mb-16'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quo vel reprehenderit qui, eius nisi dolores nesciunt dolor ad consequatur? Reprehenderit deleniti 
-            eius vero blanditiis eveniet perspiciatis reiciendis
-             consequatur maiores?</p>
+          
              <button  className='btn btn-sm' >View all projects </button></div>
           <motion.div variants={fadeIn('right',0.3)}
         initial='hidden'

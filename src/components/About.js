@@ -20,17 +20,26 @@ const About = () => {
         whileInView={'show'}
         viewport={{once:false,amount:0.3}} className='flex-1'>
           <h2 className='h2 text-accent'>About me</h2>
-          <h3 className='h3 mb-4'>I'm a freeeeccsccccc</h3>
-        <p className='mb-6'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos et obcaecati reprehenderit dicta, id ea aperiam distinctio nihil incidunt repellendus, accusantium vitae ad dignissimos dolorum cum, 
-          illum accusamus consequatur fugiat?</p>
+          
+        <p className='mb-6'> My name is Bucheti Naga Padmini, and I am a third-year student at NIT Hamirpur, on a captivating journey of exploration in the realms of Blockchain Technologies and Artificial Intelligence (AI). With a fervent curiosity and a relentless pursuit of knowledge, I am driven to make a meaningful impact in these cutting-edge fields.</p>
           <div className='flex gap-x-6 lg:gap-x-10 mb-12'>
             <div>
-              <div className='text-[40px] font-tertiary
-               text-gradient mb-2'>
-                {InView? <CountUp start={0} end={2} duration={3}/>:null}k+</div>
-                <div className='font-primary text-sm tracking-[2px]'>
-                  Years of<br/>Experience
-                  </div></div>
+              <ul>
+                <li><strong>Degree:</strong> Btech, Electonics and Communication Engineering, NIT Hamirpur </li>
+                <li><strong>Schooling:</strong> Narayana Junior College, Vijaywada(Class 12) || Atomic Energy Central School (Class 10) </li>
+                <li><strong>Achievements: </strong> Grand-Finalish SIH 2022
+                <li>Young Innovators Program By CCMB</li>
+                <li>Winner of Business Hackathon organised by Incubator Cell, NIT Hamirpur</li>
+                <li>AWS AI/ML Scholarship</li> </li>
+                <li><strong>Community Involvement: </strong> 
+                Mentee: Codess Cafe 
+                <li>Executive Member: Society for Promotion of Electronics Culture (SPEC)</li>
+                <li>Executive Member: Team Public Relation</li>
+                <li> Cadet: NCC Army</li></li>
+                
+                
+              </ul>
+              </div>
                   <div></div></div>
                   </motion.div>
       </div>

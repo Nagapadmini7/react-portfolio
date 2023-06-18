@@ -13,7 +13,7 @@ const Banner = () => {
       lg:gap-x-12'>
         <div className='flex-1 text-center font-secondary lg:text-left'>
           <motion.h1 variants={fadeIn('up',0.3)} initial="hidden" whileInView={'show'} 
-          viewport={{once:false, amount:0.7}} className='text-[55px] font-bold leading-[0.8] lg:text-[110px]'>Bucheti <span>Naga Padmini</span></motion.h1>
+          viewport={{once:false, amount:0.7}} className='text-[55px] font-bold leading-[0.8] lg:text-[110px]'>Buc<span className='text-accent'>H</span>et<span className='text-accent'>I</span> <span>Naga Padmini</span></motion.h1>
           <motion.div 
           variants={fadeIn('up',0.4)} initial="hidden" whileInView={'show'} 
           viewport={{once:false, amount:0.7}} className='mb-6 text-[36px] lg:text-[60px] font-secondary
@@ -26,10 +26,7 @@ const Banner = () => {
           wrapper='span'
           repeat={Infinity}/>
           </motion.div>
-          <p 
-          variants={fadeIn('up',0.5)} initial="hidden" whileInView={'show'} 
-          viewport={{once:false, amount:0.7}}className='mb-8 max-w-lg mx-auto lg:mx-0'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores neque, ipsum veritatis deserunt cumque placeat assumenda eligendi facilis nulla aliquid rerum odit ab quam deleniti quidem aliquam 
-            cupiditate ipsam obcaecati.</p>
+         
             <motion.div variants={fadeIn('up',0.6)} initial="hidden" whileInView={'show'} 
           viewport={{once:false, amount:0.7}} className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0 '>
               <button className='btn btn-lg'>Contact me</button>
