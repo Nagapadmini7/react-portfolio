@@ -9,7 +9,7 @@ import {fadeIn} from '../variants'
 const About = () => {
   
   return <section className='section'
-   id='about' ref={ref}>
+   id='about' >
     <div className='container mx-auto'>
       <div className='flex flex-col gap-y-10 lg:flex-row'>
         <motion.div 
