@@ -50,6 +50,7 @@ const Work = () => {
               </a>
               <a className='absolute -bottom-full left-20 group-hover:bottom-14
           transition-all duration-700 z-50' href="spotify-clone-five-sigma.vercel.app
+
           ">
                 <FaLink/>
               </a></div>

@@ -31,7 +31,7 @@ import soli from '../assets/solidity.png'
 const Skills = () => {
   return (
     <section id='skills'>
-    <div name='skills' className='container mx-auto'>
+    <div  className='container mx-auto'>
       {/* Container */}
       <div className='flex flex-col lg:flex-row gap-x-10'>
           <div>
