@@ -27,6 +27,7 @@ const About = () => {
                 <li><strong>Schooling:</strong> Narayana Junior College, Vijaywada(Class 12) || Atomic Energy Central School (Class 10) </li>
                 <li><strong>Achievements: </strong> Grand-Finalish SIH 2022
                 <li>Young Innovators Program By CCMB</li>
+                <li>Among the top 1% to qualify Flipkart Grid 5.0</li>
                 <li>Winner of Business Hackathon organised by Incubator Cell, NIT Hamirpur</li>
                 <li>AWS AI/ML Scholarship</li> </li>
                 <li><strong>Community Involvement: </strong> 
