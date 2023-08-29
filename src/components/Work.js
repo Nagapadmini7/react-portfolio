@@ -1,6 +1,5 @@
 import React from 'react';
-import{motion} from 'framer-motion'
-import { fadeIn } from '../variants';
+
 import Img1 from '../assets/img1.jpeg'
 import Img2 from '../assets/img2.jpeg'
 import Img3 from '../assets/img3.png'
