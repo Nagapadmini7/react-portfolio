@@ -25,14 +25,16 @@ const About = () => {
               <ul>
                 <li><strong>Degree:</strong> Btech, Electonics and Communication Engineering, NIT Hamirpur </li>
                 <li><strong>Schooling:</strong> Narayana Junior College, Vijaywada(Class 12) || Atomic Energy Central School (Class 10) </li>
-                <li><strong>Achievements: </strong> Grand-Finalish SIH 2022
+                <li><strong>Achievements: </strong> Ethindia 2023 Filecoin winner
+                <li>Grand-Finalish SIH 2022</li> 
                 <li>Young Innovators Program By CCMB</li>
                 <li>Among the top 1% to qualify Flipkart Grid 5.0</li>
                 <li>Winner of Business Hackathon organised by Incubator Cell, NIT Hamirpur</li>
                 <li>AWS AI/ML Scholarship</li> </li>
                 <li><strong>Community Involvement: </strong> 
-                Mentee: Codess Cafe 
-                <li>Executive Member: Society for Promotion of Electronics Culture (SPEC)</li>
+                Contributor: Superteam,India Solana 
+                <li>Mentee: Codess Cafe </li>
+                <li>President: Society for Promotion of Electronics Culture (SPEC)</li>
                 <li>Executive Member: Team Public Relation</li>
                 <li> Cadet: NCC Army</li></li>
                 

@@ -1,9 +1,10 @@
 import React from 'react';
 
 import Img1 from '../assets/img1.jpeg'
-import Img2 from '../assets/img2.jpeg'
+
 import Img3 from '../assets/img3.png'
 import Img4 from '../assets/img4.jpg'
+import ethfit from '../assets/ethfit.png'
 import {FaGithub,FaLink} from 'react-icons/fa';
 
 
@@ -140,17 +141,14 @@ const Work = () => {
     </div>
     <div class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
       <div class="h-96 w-72">
-        <img class="h-full w-full object-contain transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src={Img2} alt="" />
+        <img class="h-full w-full object-contain transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src={ethfit} alt="" />
       </div>
       <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
       <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-        <h1 class="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">Share a bite</h1>
-        <a className='absolute -bottom-full left-12 group-hover:bottom-14
-          transition-all duration-700 z-50' href="https://github.com/Nagapadmini7/share-a-bite">
-                <FaGithub/>
-              </a>
+        <h1 class="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">Eth Fit</h1>
+        
               <a className='absolute -bottom-full left-20 group-hover:bottom-14
-          transition-all duration-700 z-50' href="https://share-a-bite-378i.vercel.app/">
+          transition-all duration-700 z-50' href="https://devfolio.co/projects/ethfit-2287">
                 <FaLink/>
               </a>
        
@@ -197,7 +195,9 @@ const Work = () => {
               
        
       </div>
+      
     </div>
+    
     
     
   </div>

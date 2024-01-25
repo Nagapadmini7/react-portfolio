@@ -21,7 +21,7 @@ const Banner = () => {
           <TypeAnimation sequence={['Developer',2000,
           'Blockchain developer',2000,
           'designer',2000,
-          'Machine Learning Enthusiast',2000]} speed={50}
+          'Open Source contributor',2000]} speed={50}
           className='text-accent'
           wrapper='span'
           repeat={Infinity}/>
@@ -41,7 +41,7 @@ const Banner = () => {
               <a href="https://www.instagram.com/padmini_710/">
                 <FaInstagram/>
               </a>
-              <a href="https://twitter.com/euphori15859932?t=p6X1uCjMakwBWg3_gO3gYg&s=08">
+              <a href="https://twitter.com/BNaga39569">
                 <FaTwitter/>
               </a>
               <a href="https://www.youtube.com/channel/UCozywHHA1ye59_hl2P94dJQ">
